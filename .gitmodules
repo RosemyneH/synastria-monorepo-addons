@@ -112,3 +112,6 @@
 [submodule "addons/elvui-attune"]
 	path = addons/elvui-attune
 	url = https://github.com/RosemyneH/ElvUI_Attune.git
+[submodule "addons/adibags-wotlk-335"]
+	path = addons/adibags-wotlk-335
+	url = https://github.com/Sattva-108/AdiBags-WoTLK-3.3.5.git

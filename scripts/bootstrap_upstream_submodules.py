@@ -20,6 +20,14 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "manifest" / "addons.json"
 HUB_MARKERS = ("synastria-monorepo-addons",)
 
+# Upstreams that must stay catalog-only: git cannot materialize a working tree on Windows
+# (e.g. paths containing ":Zone.Identifier" in TrinityCore/wow_335a_addons).
+NO_SUBMODULE_CLONE_URLS: frozenset[str] = frozenset(
+    {
+        "https://github.com/TrinityCore/wow_335a_addons.git",
+    }
+)
+
 
 def clone_url(entry: dict) -> str | None:
     inst = entry.get("install")
@@ -63,6 +71,7 @@ def main() -> int:
 
     added = 0
     skipped = 0
+    ntfs_skip_url_logged: set[str] = set()
     for entry in addons:
         if not isinstance(entry, dict):
             continue
@@ -74,6 +83,14 @@ def main() -> int:
             skipped += 1
             continue
         url = normalize_git_url(url)
+        if url in NO_SUBMODULE_CLONE_URLS:
+            if url not in ntfs_skip_url_logged:
+                print(
+                    "  skip submodules for wow_335a_addons rows (NTFS-incompatible paths in upstream; catalog only)"
+                )
+                ntfs_skip_url_logged.add(url)
+            skipped += 1
+            continue
         rel = Path("addons") / aid
         rel_posix = rel.as_posix()
         if submodule_path_registered(rel_posix):
@@ -92,7 +109,10 @@ def main() -> int:
             continue
         added += 1
 
-    print(f"Done. Added {added} submodule(s); skipped {skipped} non-GitHub or hub rows.")
+    print(
+        f"Done. Added {added} submodule(s); skipped {skipped} manifest rows "
+        "(non-GitHub, hub self-repo, or no-submodule upstream)."
+    )
     return 0
 
 

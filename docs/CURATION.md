@@ -1,9 +1,9 @@
 # Curation policy
 
 - **Upstream-first:** Each public GitHub add-on has its own repository. The manifest lists the clone URL the **Attune Helper Companion** uses for installs.
-- **Meta-repo links:** The same URLs are registered as **git submodules** under `addons/<id>/` (see [addons/README.md](../addons/README.md)) so this monorepo is multi-linked to every upstream (browse on GitHub or clone with `--recurse-submodules`).
+- **Meta-repo links:** Public GitHub URLs are usually registered as **git submodules** under `addons/<id>/` (see [addons/README.md](../addons/README.md)). Exceptions (e.g. [TrinityCore/wow_335a_addons](https://github.com/TrinityCore/wow_335a_addons) cannot be checked out on Windows NTFS) stay **catalog-only**; `bootstrap_upstream_submodules.py` skips those clone URLs.
 - **Vendored-only:** Add-ons without a suitable public repo (e.g. **RaajikWarpAlias**) stay as a normal folder under `addons/<FolderName>/`, not a submodule.
-- **ACP:** Only [ACP-Zero](https://github.com/DivideByZeroToDeleteWorld/ACP-Zero) for the “Addon Control Panel” line.
+- **ACP:** Prefer [ACP-Zero](https://github.com/DivideByZeroToDeleteWorld/ACP-Zero); classic ACP from the TrinityCore bundle is a separate manifest row (see [ADDONS.md](../ADDONS.md)).
 - **SynastriaQuestieHelper:** [Elmegaard/SynastriaQuestieHelper](https://github.com/Elmegaard/SynastriaQuestieHelper) as the install target; other forks in [ADDONS.md](../ADDONS.md) if needed.
 - **Felbite** is not a default bulk source.
 

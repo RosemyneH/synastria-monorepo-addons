@@ -25,3 +25,5 @@ Regenerate submodule registrations after manifest changes:
 ```bash
 python scripts/bootstrap_upstream_submodules.py
 ```
+
+Some catalog rows point at upstreams that are **not** registered as submodules here (for example [TrinityCore/wow_335a_addons](https://github.com/TrinityCore/wow_335a_addons) cannot be checked out on Windows NTFS); the companion still installs from `install.url` when the client can clone the tree.
