@@ -1,0 +1,15 @@
+name: Validate manifest
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JSON syntax
+        run: python -m json.tool manifest/addons.json > /dev/null

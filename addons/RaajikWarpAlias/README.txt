@@ -1,0 +1,1 @@
+Copy your local RaajikWarpAlias add-on folder (Interface/AddOns layout) into this directory so it contains the .toc and Lua/XML for the in-game add-on. The Attune Helper catalog entry uses source_subdir addons/RaajikWarpAlias from this repository.
