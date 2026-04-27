@@ -18,7 +18,7 @@ This repo holds:
 |------|---------|
 | [manifest/addons.json](manifest/addons.json) | Machine-readable catalog consumed by Attune Helper Companion (built into the app). **Edit this file here first** when changing install sources. |
 | [ADDONS.md](ADDONS.md) | Human index (names, paths, upstream notes). |
-| [addons/](addons/) | Vendored add-on **trees** (normal folders with `.toc` files)—not git submodules. |
+| [addons/](addons/) | Vendored **file trees** only; **[addons/README.md](addons/README.md)** lists every catalog add-on with links to upstream repos. |
 | [docs/CURATION.md](docs/CURATION.md) | Policy and verification commands. |
 
 The companion app clones this layout from **[RosemyneH/synastria-monorepo-addons](https://github.com/RosemyneH/synastria-monorepo-addons)** (or a sibling checkout during development). See [docs/CURATION.md](docs/CURATION.md) for `generate_addon_catalog.py --check` after edits.

@@ -13,3 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: JSON syntax
         run: python -m json.tool manifest/addons.json > /dev/null
+      - name: addons README matches manifest
+        run: |
+          python scripts/generate_addons_index.py
+          git diff --exit-code addons/README.md

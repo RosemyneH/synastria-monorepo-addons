@@ -14,7 +14,8 @@
 
 1. Open an **Issue** using the templates, or a **Pull Request** with a short description of the add-on row or doc fix.
 2. For new git sources, include the public clone URL and confirm the add-on layout (`.toc` path, `source_subdir` if not repo root).
-3. Run validation from a clone of AttuneHelperCompanion (sibling directory):
+3. Regenerate the browsable list: `python scripts/generate_addons_index.py` and commit `addons/README.md` with your manifest change.
+4. Run validation from a clone of AttuneHelperCompanion (sibling directory):
 
    `python scripts/generate_addon_catalog.py --check --input ../synastria-monorepo-addons/manifest/addons.json`
 
