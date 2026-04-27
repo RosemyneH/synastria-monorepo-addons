@@ -1,5 +1,4 @@
-# wotlk-curated-addons
-
+# synastria-monorepo-addons
 Vendored **World of Warcraft 3.3.5** add-on trees that are not (or not yet)
 published as their own GitHub repositories, plus a **human index** of
 upstream and vendored sources.
@@ -33,7 +32,7 @@ git init
 git add -A
 git commit -m "Initial monorepo layout"
 # create empty repo on GitHub, then:
-git remote add origin https://github.com/<org>/wotlk-curated-addons.git
+git remote add origin https://github.com/<org>/synastria-monorepo-addons.git
 git branch -M main
 git push -u origin main
 ```
