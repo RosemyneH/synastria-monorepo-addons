@@ -18,7 +18,7 @@ This repo holds:
 |------|---------|
 | [manifest/addons.json](manifest/addons.json) | Machine-readable catalog consumed by Attune Helper Companion (built into the app). **Edit this file here first** when changing install sources. |
 | [ADDONS.md](ADDONS.md) | Human index (names, paths, upstream notes). |
-| [addons/](addons/) | **[addons/upstream/](addons/upstream/README.md)** — git **submodules** to every upstream repo from the manifest; **vendored** trees (e.g. RaajikWarpAlias) live as normal folders beside `upstream/`. |
+| [addons/](addons/) | **[addons/upstream/](addons/upstream/README.md)** — git **submodules** to every upstream (see [docs/GitHub_submodules.md](docs/GitHub_submodules.md) for how this appears on **GitHub**). Vendored trees (e.g. RaajikWarpAlias) sit beside `upstream/`. On GitHub, open [`.gitmodules`](https://github.com/RosemyneH/synastria-monorepo-addons/blob/main/.gitmodules) for the full list of links. |
 | [docs/CURATION.md](docs/CURATION.md) | Policy and verification commands. |
 
 The companion app clones this layout from **[RosemyneH/synastria-monorepo-addons](https://github.com/RosemyneH/synastria-monorepo-addons)** (or a sibling checkout during development). See [docs/CURATION.md](docs/CURATION.md) for `generate_addon_catalog.py --check` after edits.
