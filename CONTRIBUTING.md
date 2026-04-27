@@ -14,7 +14,7 @@
 
 1. Open an **Issue** using the templates, or a **Pull Request** with a short description of the add-on row or doc fix.
 2. For new git sources, include the public clone URL and confirm the add-on layout (`.toc` path, `source_subdir` if not repo root).
-3. Register submodule links: `python scripts/bootstrap_upstream_submodules.py` and commit `.gitmodules` plus new paths under `addons/upstream/`.
+3. Register submodule links: `python scripts/bootstrap_upstream_submodules.py` and commit `.gitmodules` plus new paths under `addons/<id>/`.
 4. Run validation from a clone of AttuneHelperCompanion (sibling directory):
 
    `python scripts/generate_addon_catalog.py --check --input ../synastria-monorepo-addons/manifest/addons.json`

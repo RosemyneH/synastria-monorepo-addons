@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Register each manifest GitHub clone URL as a git submodule under addons/upstream/<id>/.
+Register each manifest GitHub clone URL as a git submodule under addons/<id>/.
 
 Meta-repo layout: each catalog row with a public GitHub URL becomes a submodule pointer.
 Vendored-only rows (this monorepo as repo) stay as real trees under addons/<Name>/.
@@ -74,7 +74,7 @@ def main() -> int:
             skipped += 1
             continue
         url = normalize_git_url(url)
-        rel = Path("addons") / "upstream" / aid
+        rel = Path("addons") / aid
         rel_posix = rel.as_posix()
         if submodule_path_registered(rel_posix):
             continue

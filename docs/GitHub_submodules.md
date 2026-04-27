@@ -9,7 +9,7 @@ They **are** there, but the GitHub web UI does **not** show the same thing as a 
    Every `url =` line is a linked upstream add-on.
 
 2. **The submodule directories**  
-   [Browse `addons/upstream/`](https://github.com/RosemyneH/synastria-monorepo-addons/tree/main/addons/upstream)  
+   [Browse `addons/`](https://github.com/RosemyneH/synastria-monorepo-addons/tree/main/addons) (submodules and vendored trees share this folder)  
 
    On the web, each add-on is a **gitlink** (pinned commit in another repo), not the whole tree inlined here. You should see:
    - One row per add-on (e.g. `weakauras-wotlk`)
@@ -17,12 +17,12 @@ They **are** there, but the GitHub web UI does **not** show the same thing as a 
    - Clicking the name or link opens the **upstream** project on GitHub, not a nested file list inside *this* repo.
 
 3. **Raw list from git** (API-style)  
-   [Repository contents API path](https://api.github.com/repos/RosemyneH/synastria-monorepo-addons/contents/addons/upstream?ref=main) — `type: "file"` is wrong; items should be `type: "submodule"` with a `submodule_git_url` in some responses, or the tree shows as gitlinks in git directly.
+   [Repository contents API path](https://api.github.com/repos/RosemyneH/synastria-monorepo-addons/contents/addons?ref=main) — `type: "file"` is wrong; items should be `type: "submodule"` with a `submodule_git_url` in some responses, or the tree shows as gitlinks in git directly.
 
 ## If you see nothing
 
-- Confirm the branch is **`main`** and the path is **`addons/upstream`**, not an old fork or a branch without commit `9919f2b` or later.
+- Confirm the branch is **`main`** and you are in **`addons/`** (submodules and vendored folders live together; older checkouts may still use `addons/upstream/` before that layout was flattened).
 - Try an incognito window or hard refresh (cache can show an old tree).
-- The mobile GitHub app sometimes hides metadata; use the full site for `addons/upstream/`.
+- The mobile GitHub app sometimes hides metadata; use the full site for the **`addons/`** tree.
 
 **Bottom line:** submodules = **pointers** to other repos. [`.gitmodules`](https://github.com/RosemyneH/synastria-monorepo-addons/blob/main/.gitmodules) is the file that always proves every link exists from GitHub’s UI.

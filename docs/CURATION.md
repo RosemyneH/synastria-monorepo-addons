@@ -1,7 +1,7 @@
 # Curation policy
 
 - **Upstream-first:** Each public GitHub add-on has its own repository. The manifest lists the clone URL the **Attune Helper Companion** uses for installs.
-- **Meta-repo links:** The same URLs are registered as **git submodules** under [`addons/upstream/<id>/`](../addons/upstream/README.md) so this monorepo is multi-linked to every upstream (browse on GitHub or clone with `--recurse-submodules`).
+- **Meta-repo links:** The same URLs are registered as **git submodules** under `addons/<id>/` (see [addons/README.md](../addons/README.md)) so this monorepo is multi-linked to every upstream (browse on GitHub or clone with `--recurse-submodules`).
 - **Vendored-only:** Add-ons without a suitable public repo (e.g. **RaajikWarpAlias**) stay as a normal folder under `addons/<FolderName>/`, not a submodule.
 - **ACP:** Only [ACP-Zero](https://github.com/DivideByZeroToDeleteWorld/ACP-Zero) for the “Addon Control Panel” line.
 - **SynastriaQuestieHelper:** [Elmegaard/SynastriaQuestieHelper](https://github.com/Elmegaard/SynastriaQuestieHelper) as the install target; other forks in [ADDONS.md](../ADDONS.md) if needed.

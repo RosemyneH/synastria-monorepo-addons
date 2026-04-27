@@ -1,117 +1,117 @@
-[submodule "addons/upstream/acp-zero"]
-	path = addons/upstream/acp-zero
+[submodule "addons/acp-zero"]
+	path = addons/acp-zero
 	url = https://github.com/DivideByZeroToDeleteWorld/ACP-Zero.git
-[submodule "addons/upstream/arkinventory"]
-	path = addons/upstream/arkinventory
+[submodule "addons/arkinventory"]
+	path = addons/arkinventory
 	url = https://github.com/SynScoots/ArkInventory-modified-for-attunements-.git
-[submodule "addons/upstream/atlasloot-mythic"]
-	path = addons/upstream/atlasloot-mythic
+[submodule "addons/atlasloot-mythic"]
+	path = addons/atlasloot-mythic
 	url = https://github.com/imevul/AtlasLoot_Mythic.git
-[submodule "addons/upstream/attune-helper"]
-	path = addons/upstream/attune-helper
+[submodule "addons/attune-helper"]
+	path = addons/attune-helper
 	url = https://github.com/RosemyneH/AttuneHelperHosting.git
-[submodule "addons/upstream/attune-progress"]
-	path = addons/upstream/attune-progress
+[submodule "addons/attune-progress"]
+	path = addons/attune-progress
 	url = https://github.com/RosemyneH/AttuneProgress.git
-[submodule "addons/upstream/lizard-dmp"]
-	path = addons/upstream/lizard-dmp
+[submodule "addons/lizard-dmp"]
+	path = addons/lizard-dmp
 	url = https://github.com/Versicoloris/LizardDMP.git
-[submodule "addons/upstream/lizard-kts"]
-	path = addons/upstream/lizard-kts
+[submodule "addons/lizard-kts"]
+	path = addons/lizard-kts
 	url = https://github.com/Versicoloris/LizardKTS.git
-[submodule "addons/upstream/lizard-mmu"]
-	path = addons/upstream/lizard-mmu
+[submodule "addons/lizard-mmu"]
+	path = addons/lizard-mmu
 	url = https://github.com/Versicoloris/LizardMMU.git
-[submodule "addons/upstream/lizard-stb"]
-	path = addons/upstream/lizard-stb
+[submodule "addons/lizard-stb"]
+	path = addons/lizard-stb
 	url = https://github.com/Versicoloris/LizardSTB.git
-[submodule "addons/upstream/lizard-tmo"]
-	path = addons/upstream/lizard-tmo
+[submodule "addons/lizard-tmo"]
+	path = addons/lizard-tmo
 	url = https://github.com/Versicoloris/LizardTMO.git
-[submodule "addons/upstream/lizard-wwg"]
-	path = addons/upstream/lizard-wwg
+[submodule "addons/lizard-wwg"]
+	path = addons/lizard-wwg
 	url = https://github.com/Versicoloris/LizardWWG.git
-[submodule "addons/upstream/mapster-synastria-hosting"]
-	path = addons/upstream/mapster-synastria-hosting
+[submodule "addons/mapster-synastria-hosting"]
+	path = addons/mapster-synastria-hosting
 	url = https://github.com/RosemyneH/MapsterSynastriaHosting.git
-[submodule "addons/upstream/mehtrajectory"]
-	path = addons/upstream/mehtrajectory
+[submodule "addons/mehtrajectory"]
+	path = addons/mehtrajectory
 	url = https://github.com/SynScoots/MehTrajectory.git
-[submodule "addons/upstream/omniinventory-syn"]
-	path = addons/upstream/omniinventory-syn
+[submodule "addons/omniinventory-syn"]
+	path = addons/omniinventory-syn
 	url = https://github.com/RosemyneH/OmniInv-Syn.git
-[submodule "addons/upstream/postal"]
-	path = addons/upstream/postal
+[submodule "addons/postal"]
+	path = addons/postal
 	url = https://github.com/binnesman/Postal.git
-[submodule "addons/upstream/qt-auto-roller"]
-	path = addons/upstream/qt-auto-roller
+[submodule "addons/qt-auto-roller"]
+	path = addons/qt-auto-roller
 	url = https://github.com/RosemyneH/qtRoll.git
-[submodule "addons/upstream/qtrunner"]
-	path = addons/upstream/qtrunner
+[submodule "addons/qtrunner"]
+	path = addons/qtrunner
 	url = https://github.com/RosemyneH/qtRunner.git
-[submodule "addons/upstream/questie-335"]
-	path = addons/upstream/questie-335
+[submodule "addons/questie-335"]
+	path = addons/questie-335
 	url = https://github.com/Netrinil/Questie-335.git
-[submodule "addons/upstream/scoots-combat-attune-watch"]
-	path = addons/upstream/scoots-combat-attune-watch
+[submodule "addons/scoots-combat-attune-watch"]
+	path = addons/scoots-combat-attune-watch
 	url = https://github.com/SynScoots/ScootsCombatAttuneWatch.git
-[submodule "addons/upstream/scoots-confirmation-skip"]
-	path = addons/upstream/scoots-confirmation-skip
+[submodule "addons/scoots-confirmation-skip"]
+	path = addons/scoots-confirmation-skip
 	url = https://github.com/SynScoots/ScootsConfirmationSkip.git
-[submodule "addons/upstream/scoots-craft"]
-	path = addons/upstream/scoots-craft
+[submodule "addons/scoots-craft"]
+	path = addons/scoots-craft
 	url = https://github.com/SynScoots/ScootsCraft.git
-[submodule "addons/upstream/scoots-quick-auction"]
-	path = addons/upstream/scoots-quick-auction
+[submodule "addons/scoots-quick-auction"]
+	path = addons/scoots-quick-auction
 	url = https://github.com/SynScoots/ScootsQuickAuction.git
-[submodule "addons/upstream/scoots-rares"]
-	path = addons/upstream/scoots-rares
+[submodule "addons/scoots-rares"]
+	path = addons/scoots-rares
 	url = https://github.com/SynScoots/ScootsRares.git
-[submodule "addons/upstream/scoots-speedrun"]
-	path = addons/upstream/scoots-speedrun
+[submodule "addons/scoots-speedrun"]
+	path = addons/scoots-speedrun
 	url = https://github.com/SynScoots/ScootsSpeedrun.git
-[submodule "addons/upstream/scoots-stats"]
-	path = addons/upstream/scoots-stats
+[submodule "addons/scoots-stats"]
+	path = addons/scoots-stats
 	url = https://github.com/SynScoots/ScootsStats.git
-[submodule "addons/upstream/scoots-vendor"]
-	path = addons/upstream/scoots-vendor
+[submodule "addons/scoots-vendor"]
+	path = addons/scoots-vendor
 	url = https://github.com/SynScoots/ScootsVendor.git
-[submodule "addons/upstream/synastria-build-manager"]
-	path = addons/upstream/synastria-build-manager
+[submodule "addons/synastria-build-manager"]
+	path = addons/synastria-build-manager
 	url = https://github.com/Lubricated/SynastriaBuildManager.git
-[submodule "addons/upstream/the-journal"]
-	path = addons/upstream/the-journal
+[submodule "addons/the-journal"]
+	path = addons/the-journal
 	url = https://github.com/RosemyneH/TheJournal.git
-[submodule "addons/upstream/weakauras-wotlk"]
-	path = addons/upstream/weakauras-wotlk
+[submodule "addons/weakauras-wotlk"]
+	path = addons/weakauras-wotlk
 	url = https://github.com/Bunny67/WeakAuras-WotLK.git
-[submodule "addons/upstream/vendorforgelist"]
-	path = addons/upstream/vendorforgelist
+[submodule "addons/vendorforgelist"]
+	path = addons/vendorforgelist
 	url = https://github.com/APLiquid/VendorForgeList.git
-[submodule "addons/upstream/trufi-gcd"]
-	path = addons/upstream/trufi-gcd
+[submodule "addons/trufi-gcd"]
+	path = addons/trufi-gcd
 	url = https://github.com/robgha01/TrufiGCD.git
-[submodule "addons/upstream/synastria-questie-helper"]
-	path = addons/upstream/synastria-questie-helper
+[submodule "addons/synastria-questie-helper"]
+	path = addons/synastria-questie-helper
 	url = https://github.com/Elmegaard/SynastriaQuestieHelper.git
-[submodule "addons/upstream/scoots-ui-tweaks"]
-	path = addons/upstream/scoots-ui-tweaks
+[submodule "addons/scoots-ui-tweaks"]
+	path = addons/scoots-ui-tweaks
 	url = https://github.com/SynScoots/ScootsUITweaks.git
-[submodule "addons/upstream/scoots-warp-map"]
-	path = addons/upstream/scoots-warp-map
+[submodule "addons/scoots-warp-map"]
+	path = addons/scoots-warp-map
 	url = https://github.com/SynScoots/ScootsWarpMap.git
-[submodule "addons/upstream/cdf-synastria"]
-	path = addons/upstream/cdf-synastria
+[submodule "addons/cdf-synastria"]
+	path = addons/cdf-synastria
 	url = https://github.com/RosemyneH/cDF---Synastria.git
-[submodule "addons/upstream/resource-bank-viewer"]
-	path = addons/upstream/resource-bank-viewer
+[submodule "addons/resource-bank-viewer"]
+	path = addons/resource-bank-viewer
 	url = https://github.com/RosemyneH/ResourceBankViewer.git
-[submodule "addons/upstream/talented-synastria"]
-	path = addons/upstream/talented-synastria
+[submodule "addons/talented-synastria"]
+	path = addons/talented-synastria
 	url = https://github.com/RosemyneH/talented-synastria.git
-[submodule "addons/upstream/qt-ui-tweaks"]
-	path = addons/upstream/qt-ui-tweaks
+[submodule "addons/qt-ui-tweaks"]
+	path = addons/qt-ui-tweaks
 	url = https://github.com/RosemyneH/qtUITweaks.git
-[submodule "addons/upstream/elvui-attune"]
-	path = addons/upstream/elvui-attune
+[submodule "addons/elvui-attune"]
+	path = addons/elvui-attune
 	url = https://github.com/RosemyneH/ElvUI_Attune.git
