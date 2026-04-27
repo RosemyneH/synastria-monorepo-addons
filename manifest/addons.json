@@ -14,16 +14,16 @@
       "author": "DivideByZeroToDeleteWorld",
       "category": "Utility",
       "folder": "ACP-Zero",
-      "source_subdir": "src",
+      "source_subdir": "addons/acp-zero/src",
       "description": "In-game add-on control panel for WoW 3.3.5 private servers; includes ZeroMod quick search to filter add-ons by name.",
-      "repo": "https://github.com/DivideByZeroToDeleteWorld/ACP-Zero.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/DivideByZeroToDeleteWorld/ACP-Zero.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "DivideByZeroToDeleteWorld",
-        "repo": "ACP-Zero",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -41,16 +41,16 @@
       "author": "Scoots",
       "category": "Inventory",
       "folder": "ArkInventory",
-      "source_subdir": "src",
+      "source_subdir": "addons/arkinventory/src",
       "description": "Adds support for attunements.",
-      "repo": "https://github.com/SynScoots/ArkInventory-modified-for-attunements-.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ArkInventory-modified-for-attunements-.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ArkInventory-modified-for-attunements-",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -69,14 +69,14 @@
       "category": "Loot",
       "folder": "AtlasLoot_Mythic",
       "description": "Adds mythic items to AtlasLoot.",
-      "repo": "https://github.com/imevul/AtlasLoot_Mythic.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/imevul/AtlasLoot_Mythic.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "imevul",
-        "repo": "AtlasLoot_Mythic",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -87,7 +87,8 @@
         "Loot",
         "Attunement",
         "Quality of Life"
-      ]
+      ],
+      "source_subdir": "addons/atlasloot-mythic/src"
     },
     {
       "id": "attune-helper",
@@ -96,14 +97,14 @@
       "category": "Attunement",
       "folder": "AttuneHelper",
       "description": "Automate your Attunement swaps and manage your gear quickly with this powerful addon.",
-      "repo": "https://github.com/RosemyneH/AttuneHelperHosting.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/AttuneHelperHosting.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "AttuneHelperHosting",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -114,7 +115,8 @@
         "Attunement",
         "Community Favorites",
         "Gear"
-      ]
+      ],
+      "source_subdir": "addons/attune-helper"
     },
     {
       "id": "attune-progress",
@@ -123,20 +125,21 @@
       "category": "Attunement",
       "folder": "AttuneProgress",
       "description": "Tracks attunement progress in inventory.",
-      "repo": "https://github.com/RosemyneH/AttuneProgress.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/AttuneProgress.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "AttuneProgress",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/RosemyneH.png?size=96",
-      "version": "v2.4"
+      "version": "v2.4",
+      "source_subdir": "addons/attune-progress/src"
     },
     {
       "id": "lizard-dmp",
@@ -145,20 +148,21 @@
       "category": "Gear",
       "folder": "LizardDMP",
       "description": "Fast gear optimizer based on stat priority.",
-      "repo": "https://github.com/Versicoloris/LizardDMP.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Versicoloris/LizardDMP.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Versicoloris",
-        "repo": "LizardDMP",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/Versicoloris.png?size=96",
-      "version": "v1.1"
+      "version": "v1.1",
+      "source_subdir": "addons/lizard-dmp"
     },
     {
       "id": "lizard-kts",
@@ -167,20 +171,21 @@
       "category": "Gear",
       "folder": "LizardKTS",
       "description": "Shows Synastria upgrade chains to prevent vendoring.",
-      "repo": "https://github.com/Versicoloris/LizardKTS.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Versicoloris/LizardKTS.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Versicoloris",
-        "repo": "LizardKTS",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/Versicoloris.png?size=96",
-      "version": "v.1.1"
+      "version": "v.1.1",
+      "source_subdir": "addons/lizard-kts"
     },
     {
       "id": "lizard-mmu",
@@ -189,20 +194,21 @@
       "category": "Mounts",
       "folder": "LizardMMU",
       "description": "Pick your favorite mounts and summon one at random with a single click.",
-      "repo": "https://github.com/Versicoloris/LizardMMU.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Versicoloris/LizardMMU.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Versicoloris",
-        "repo": "LizardMMU",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/Versicoloris.png?size=96",
-      "version": "1.1"
+      "version": "1.1",
+      "source_subdir": "addons/lizard-mmu"
     },
     {
       "id": "lizard-stb",
@@ -211,20 +217,21 @@
       "category": "Utility",
       "folder": "LizardSTB",
       "description": "Save an action bar and automatically share it across all characters.",
-      "repo": "https://github.com/Versicoloris/LizardSTB.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Versicoloris/LizardSTB.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Versicoloris",
-        "repo": "LizardSTB",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/Versicoloris.png?size=96",
-      "version": "1.0"
+      "version": "1.0",
+      "source_subdir": "addons/lizard-stb"
     },
     {
       "id": "lizard-tmo",
@@ -233,20 +240,21 @@
       "category": "Transmog",
       "folder": "LizardTMO",
       "description": "Store your transmog import codes in-game-no more lost outfits after prestige.",
-      "repo": "https://github.com/Versicoloris/LizardTMO.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Versicoloris/LizardTMO.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Versicoloris",
-        "repo": "LizardTMO",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/Versicoloris.png?size=96",
-      "version": "1.1"
+      "version": "1.1",
+      "source_subdir": "addons/lizard-tmo"
     },
     {
       "id": "lizard-wwg",
@@ -255,20 +263,21 @@
       "category": "Map",
       "folder": "LizardWWG",
       "description": "Right-click warps to instantly open their map.",
-      "repo": "https://github.com/Versicoloris/LizardWWG.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Versicoloris/LizardWWG.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Versicoloris",
-        "repo": "LizardWWG",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/Versicoloris.png?size=96",
-      "version": "1.0"
+      "version": "1.0",
+      "source_subdir": "addons/lizard-wwg"
     },
     {
       "id": "mapster-synastria-hosting",
@@ -276,16 +285,16 @@
       "author": "QT",
       "category": "Map",
       "folder": "Mapster",
-      "source_subdir": "Mapster",
+      "source_subdir": "addons/mapster-synastria-hosting/Mapster",
       "description": "Mapster package for Synastria with map quality-of-life additions.",
-      "repo": "https://github.com/RosemyneH/MapsterSynastriaHosting.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/MapsterSynastriaHosting.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "MapsterSynastriaHosting",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -305,20 +314,21 @@
       "category": "Map",
       "folder": "MehTrajectory",
       "description": "Tracks movement trajectory on the map.",
-      "repo": "https://github.com/SynScoots/MehTrajectory.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/MehTrajectory.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "MehTrajectory",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/SynScoots.png?size=96",
-      "version": "commit-29d910b"
+      "version": "commit-29d910b",
+      "source_subdir": "addons/mehtrajectory/src"
     },
     {
       "id": "omniinventory-syn",
@@ -326,16 +336,16 @@
       "author": "RosemyneH",
       "category": "Inventory",
       "folder": "OmniInventory",
-      "source_subdir": "OmniInventory",
+      "source_subdir": "addons/omniinventory-syn/OmniInventory",
       "description": "Inventory management addon adapted for Synastria.",
-      "repo": "https://github.com/RosemyneH/OmniInv-Syn.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/OmniInv-Syn.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "OmniInv-Syn",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -350,20 +360,21 @@
       "category": "Utility",
       "folder": "Postal",
       "description": "Postal mod with faster Open All speed.",
-      "repo": "https://github.com/binnesman/Postal.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/binnesman/Postal.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "binnesman",
-        "repo": "Postal",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/binnesman.png?size=96",
-      "version": "commit-3019cec"
+      "version": "commit-3019cec",
+      "source_subdir": "addons/postal"
     },
     {
       "id": "qt-auto-roller",
@@ -372,20 +383,21 @@
       "category": "Loot",
       "folder": "qtRoll",
       "description": "Automatically rolls for loot while in a group.",
-      "repo": "https://github.com/RosemyneH/qtRoll.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/qtRoll.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "qtRoll",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/RosemyneH.png?size=96",
-      "version": "v4.5"
+      "version": "v4.5",
+      "source_subdir": "addons/qt-auto-roller/src"
     },
     {
       "id": "qtrunner",
@@ -393,16 +405,16 @@
       "author": "RosemyneH",
       "category": "Map",
       "folder": "qtRunner",
-      "source_subdir": "qtRunner",
+      "source_subdir": "addons/qtrunner/qtRunner",
       "description": "Dungeon runner helper with bindings and run tracking.",
-      "repo": "https://github.com/RosemyneH/qtRunner.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/qtRunner.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "qtRunner",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -421,16 +433,16 @@
       "author": "Netrinil",
       "category": "Questing",
       "folder": "Questie-335",
-      "source_subdir": "Questie-335",
+      "source_subdir": "addons/questie-335/Questie-335",
       "description": "Quest helper for the 3.3.5 client.",
-      "repo": "https://github.com/Netrinil/Questie-335.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Netrinil/Questie-335.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Netrinil",
-        "repo": "Questie-335",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -445,14 +457,14 @@
       "category": "Quality of Life",
       "folder": "ScootsConfirmationSkip",
       "description": "This addon will skip the confirmation dialogue when equipping bind-on-equip items, and when looting bind-on-pickup items from chests.",
-      "repo": "https://github.com/SynScoots/ScootsConfirmationSkip.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ScootsConfirmationSkip.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsConfirmationSkip",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -462,7 +474,8 @@
       "categories": [
         "Quality of Life",
         "Community Favorites"
-      ]
+      ],
+      "source_subdir": "addons/scoots-confirmation-skip/src"
     },
     {
       "id": "scoots-craft",
@@ -471,14 +484,14 @@
       "category": "Attunement",
       "folder": "ScootsCraft",
       "description": "This is a complete overhaul of the professions system designed to drastically improve the experience. Comes bundled with a modified Acki's Recipe List",
-      "repo": "https://github.com/SynScoots/ScootsCraft.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ScootsCraft.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsCraft",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -489,7 +502,8 @@
         "Attunement",
         "Quality of Life",
         "Community Favorites"
-      ]
+      ],
+      "source_subdir": "addons/scoots-craft/src"
     },
     {
       "id": "scoots-quick-auction",
@@ -498,20 +512,21 @@
       "category": "Auction",
       "folder": "ScootsQuickAuction",
       "description": "Rapidly creates auctions at a specified price.",
-      "repo": "https://github.com/SynScoots/ScootsQuickAuction.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ScootsQuickAuction.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsQuickAuction",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/SynScoots.png?size=96",
-      "version": "commit-cdffe4e"
+      "version": "commit-cdffe4e",
+      "source_subdir": "addons/scoots-quick-auction/src"
     },
     {
       "id": "scoots-rares",
@@ -520,14 +535,14 @@
       "category": "Map",
       "folder": "ScootsRares",
       "description": "This addon will create a link in chat to automatically run the .findnpc command when near a rare",
-      "repo": "https://github.com/SynScoots/ScootsRares.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ScootsRares.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsRares",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -538,7 +553,8 @@
         "Map",
         "Quality of Life",
         "Community Favorites"
-      ]
+      ],
+      "source_subdir": "addons/scoots-rares/src"
     },
     {
       "id": "scoots-speedrun",
@@ -547,20 +563,21 @@
       "category": "Dungeon",
       "folder": "ScootsSpeedrun",
       "description": "Instantly selects dialogue choices in dungeons.",
-      "repo": "https://github.com/SynScoots/ScootsSpeedrun.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ScootsSpeedrun.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsSpeedrun",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/SynScoots.png?size=96",
-      "version": "commit-804d33d"
+      "version": "commit-804d33d",
+      "source_subdir": "addons/scoots-speedrun/src"
     },
     {
       "id": "scoots-stats",
@@ -569,14 +586,14 @@
       "category": "Attunement",
       "folder": "ScootsStats",
       "description": "This adds a stat panel to the right of your character panel so you don't need to switch between smaller stat panels below your character model, as well as showing a few extra stats",
-      "repo": "https://github.com/SynScoots/ScootsStats.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ScootsStats.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsStats",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -587,7 +604,8 @@
         "Attunement",
         "Quality of Life",
         "Community Favorites"
-      ]
+      ],
+      "source_subdir": "addons/scoots-stats/src"
     },
     {
       "id": "scoots-vendor",
@@ -596,20 +614,21 @@
       "category": "Vendor",
       "folder": "ScootsVendor",
       "description": "Unified vendor addon that combines filtering and forge workflows.",
-      "repo": "https://github.com/SynScoots/ScootsVendor.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "version": "commit-9c4e3e6",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ScootsVendor.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsVendor",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
-      "avatar_url": "https://github.com/SynScoots.png?size=96"
+      "avatar_url": "https://github.com/SynScoots.png?size=96",
+      "source_subdir": "addons/scoots-vendor/src"
     },
     {
       "id": "synastria-build-manager",
@@ -618,20 +637,21 @@
       "category": "Builds",
       "folder": "SynastriaBuildManager",
       "description": "Exports and imports perks and talents.",
-      "repo": "https://github.com/Lubricated/SynastriaBuildManager.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Lubricated/SynastriaBuildManager.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Lubricated",
-        "repo": "SynastriaBuildManager",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/Lubricated.png?size=96",
-      "version": "1.4.1"
+      "version": "1.4.1",
+      "source_subdir": "addons/synastria-build-manager/src"
     },
     {
       "id": "the-journal",
@@ -640,14 +660,14 @@
       "category": "Attunement",
       "folder": "TheJournal",
       "description": "Dungeon journal with item and boss details.",
-      "repo": "https://github.com/RosemyneH/TheJournal.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/TheJournal.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "TheJournal",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -657,7 +677,8 @@
       "categories": [
         "Attunement",
         "Quality of Life"
-      ]
+      ],
+      "source_subdir": "addons/the-journal/src"
     },
     {
       "id": "weakauras-wotlk",
@@ -666,20 +687,21 @@
       "category": "Combat",
       "folder": "WeakAuras",
       "description": "WeakAuras for WotLK 3.3.5 (community port).",
-      "repo": "https://github.com/Bunny67/WeakAuras-WotLK.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Bunny67/WeakAuras-WotLK.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Bunny67",
-        "repo": "WeakAuras-WotLK",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/Bunny67.png?size=96",
-      "version": "main"
+      "version": "main",
+      "source_subdir": "addons/weakauras-wotlk"
     },
     {
       "id": "vendorforgelist",
@@ -688,20 +710,21 @@
       "category": "Professions",
       "folder": "VendorForgeList",
       "description": "Vendor and forge listing utility for 3.3.5.",
-      "repo": "https://github.com/APLiquid/VendorForgeList.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/APLiquid/VendorForgeList.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "APLiquid",
-        "repo": "VendorForgeList",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/APLiquid.png?size=96",
-      "version": "main"
+      "version": "main",
+      "source_subdir": "addons/vendorforgelist"
     },
     {
       "id": "trufi-gcd",
@@ -710,20 +733,21 @@
       "category": "Combat",
       "folder": "TrufiGCD",
       "description": "GCD / rotation helper for 3.3.5.",
-      "repo": "https://github.com/robgha01/TrufiGCD.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/robgha01/TrufiGCD.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "robgha01",
-        "repo": "TrufiGCD",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/robgha01.png?size=96",
-      "version": "main"
+      "version": "main",
+      "source_subdir": "addons/trufi-gcd"
     },
     {
       "id": "synastria-questie-helper",
@@ -732,20 +756,21 @@
       "category": "Questing",
       "folder": "SynastriaQuestieHelper",
       "description": "Questie-related helper for Synastria-style servers.",
-      "repo": "https://github.com/Elmegaard/SynastriaQuestieHelper.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/Elmegaard/SynastriaQuestieHelper.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "Elmegaard",
-        "repo": "SynastriaQuestieHelper",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
       "direct_zip": null,
       "avatar_url": "https://github.com/Elmegaard.png?size=96",
-      "version": "main"
+      "version": "main",
+      "source_subdir": "addons/synastria-questie-helper/src"
     },
     {
       "id": "raajik-warp-alias",
@@ -782,14 +807,14 @@
       "category": "Quality of Life",
       "folder": "ScootsUITweaks",
       "description": "UI tweaks from the Scoots library.",
-      "repo": "https://github.com/SynScoots/ScootsUITweaks.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ScootsUITweaks.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsUITweaks",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -799,7 +824,8 @@
       "categories": [
         "Quality of Life",
         "Community Favorites"
-      ]
+      ],
+      "source_subdir": "addons/scoots-ui-tweaks/src"
     },
     {
       "id": "scoots-warp-map",
@@ -808,14 +834,14 @@
       "category": "Map",
       "folder": "ScootsWarpMap",
       "description": "Warp map helper from the Scoots library.",
-      "repo": "https://github.com/SynScoots/ScootsWarpMap.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/SynScoots/ScootsWarpMap.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsWarpMap",
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -825,7 +851,8 @@
       "categories": [
         "Map",
         "Quality of Life"
-      ]
+      ],
+      "source_subdir": "addons/scoots-warp-map/src"
     },
     {
       "id": "cdf-synastria",
@@ -834,14 +861,14 @@
       "category": "Attunement",
       "folder": "cDF_Synastria",
       "description": "Synastria cDF package (verify in-game folder name from repo).",
-      "repo": "https://github.com/RosemyneH/cDF---Synastria.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/cDF---Synastria.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "cDF---Synastria",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -851,7 +878,8 @@
       "categories": [
         "Attunement",
         "Quality of Life"
-      ]
+      ],
+      "source_subdir": "addons/cdf-synastria"
     },
     {
       "id": "resource-bank-viewer",
@@ -860,14 +888,14 @@
       "category": "Inventory",
       "folder": "ResourceBankViewer",
       "description": "View resource bank contents in-game.",
-      "repo": "https://github.com/RosemyneH/ResourceBankViewer.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/ResourceBankViewer.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "ResourceBankViewer",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -877,7 +905,8 @@
       "categories": [
         "Inventory",
         "Quality of Life"
-      ]
+      ],
+      "source_subdir": "addons/resource-bank-viewer"
     },
     {
       "id": "talented-synastria",
@@ -886,14 +915,14 @@
       "category": "Class",
       "folder": "Talented",
       "description": "Talents UI fork for Synastria.",
-      "repo": "https://github.com/RosemyneH/talented-synastria.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/talented-synastria.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "talented-synastria",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -903,7 +932,8 @@
       "categories": [
         "Class",
         "Quality of Life"
-      ]
+      ],
+      "source_subdir": "addons/talented-synastria"
     },
     {
       "id": "qt-ui-tweaks",
@@ -912,14 +942,14 @@
       "category": "Quality of Life",
       "folder": "qtUITweaks",
       "description": "UI tweaks and automation helpers.",
-      "repo": "https://github.com/RosemyneH/qtUITweaks.git",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
       "install": {
         "type": "git",
-        "url": "https://github.com/RosemyneH/qtUITweaks.git"
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
       },
       "github_release": {
         "owner": "RosemyneH",
-        "repo": "qtUITweaks",
+        "repo": "synastria-monorepo-addons",
         "asset_pattern": "*.zip",
         "enabled": false
       },
@@ -929,7 +959,8 @@
       "categories": [
         "Quality of Life",
         "Utility"
-      ]
+      ],
+      "source_subdir": "addons/qt-ui-tweaks"
     },
     {
       "id": "elvui-attune",
@@ -955,6 +986,371 @@
       "categories": [
         "Attunement",
         "Utility"
+      ]
+    },
+    {
+      "id": "acp-trinitycore-335a",
+      "name": "ACP",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Utility",
+      "folder": "ACP",
+      "source_subdir": "ACP/ACP",
+      "description": "Classic Addon Control Panel from the TrinityCore 3.3.5a add-on bundle (distinct from ACP-Zero in this catalog).",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/ACP",
+      "categories": [
+        "Utility",
+        "Quality of Life"
+      ]
+    },
+    {
+      "id": "adibags-wotlk-335",
+      "name": "AdiBags (WotLK 3.3.5)",
+      "author": "Sattva-108",
+      "category": "Inventory",
+      "folder": "AdiBags",
+      "description": "AdiBags backport for WoW 3.3.5 / WotLK.",
+      "repo": "https://github.com/RosemyneH/synastria-monorepo-addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/RosemyneH/synastria-monorepo-addons.git"
+      },
+      "github_release": {
+        "owner": "RosemyneH",
+        "repo": "synastria-monorepo-addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/Sattva-108.png?size=96",
+      "version": "main",
+      "page_url": "https://github.com/Sattva-108/AdiBags-WoTLK-3.3.5",
+      "categories": [
+        "Inventory",
+        "Quality of Life"
+      ],
+      "source_subdir": "addons/adibags-wotlk-335"
+    },
+    {
+      "id": "bartender4-wow335a",
+      "name": "Bartender4",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Action Bars",
+      "folder": "Bartender4",
+      "source_subdir": "Bartender4",
+      "description": "Action bar replacement; includes Bartender4_Dualspec from the TrinityCore 3.3.5a bundle.",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/Bartender4",
+      "categories": [
+        "Action Bars",
+        "Quality of Life"
+      ]
+    },
+    {
+      "id": "cromulent-wow335a",
+      "name": "Cromulent",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Map",
+      "folder": "Cromulent",
+      "source_subdir": "Cromulent/Cromulent",
+      "description": "Zone name and level display on the world map (TrinityCore 3.3.5a bundle).",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/Cromulent",
+      "categories": [
+        "Map",
+        "Quality of Life"
+      ]
+    },
+    {
+      "id": "dominos-wow335a",
+      "name": "Dominos",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Action Bars",
+      "folder": "Dominos",
+      "source_subdir": "Dominos",
+      "description": "Action bar framework and modules from the TrinityCore 3.3.5a bundle.",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/Dominos",
+      "categories": [
+        "Action Bars",
+        "Quality of Life"
+      ]
+    },
+    {
+      "id": "omnicc-wow335a",
+      "name": "OmniCC",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Combat",
+      "folder": "OmniCC",
+      "source_subdir": "OmniCC",
+      "description": "Cooldown count text on buttons; includes OmniCC_Config and OmniCC_Options from the TrinityCore bundle.",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/OmniCC",
+      "categories": [
+        "Combat",
+        "Quality of Life"
+      ]
+    },
+    {
+      "id": "pitbull4-wow335a",
+      "name": "PitBull4",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Unit Frames",
+      "folder": "PitBull4",
+      "source_subdir": "PitBull4",
+      "description": "Unit frame framework and modules from the TrinityCore 3.3.5a bundle.",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/PitBull4",
+      "categories": [
+        "Unit Frames",
+        "Combat"
+      ]
+    },
+    {
+      "id": "prat-3-wow335a",
+      "name": "Prat-3.0",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Chat",
+      "folder": "Prat-3.0",
+      "source_subdir": "Prat-3.0",
+      "description": "Chat customization (core, libraries, and modules) from the TrinityCore 3.3.5a bundle.",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/Prat-3.0",
+      "categories": [
+        "Chat",
+        "Quality of Life"
+      ]
+    },
+    {
+      "id": "recount-wow335a",
+      "name": "Recount",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Combat",
+      "folder": "Recount",
+      "source_subdir": "Recount/Recount",
+      "description": "Combat log and damage meter (TrinityCore 3.3.5a bundle).",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/Recount",
+      "categories": [
+        "Combat",
+        "Quality of Life"
+      ]
+    },
+    {
+      "id": "skada-wow335a",
+      "name": "Skada",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Combat",
+      "folder": "Skada",
+      "source_subdir": "Skada",
+      "description": "Modular damage meter; includes SkadaImprovement in the TrinityCore bundle.",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/Skada",
+      "categories": [
+        "Combat",
+        "Quality of Life"
+      ]
+    },
+    {
+      "id": "spartanui-wow335a",
+      "name": "SpartanUI",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "UI",
+      "folder": "SpartanUI",
+      "source_subdir": "SpartanUI",
+      "description": "SpartanUI shell with bundled Bartender4, oUF, and theme modules from the TrinityCore 3.3.5a bundle.",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/SpartanUI",
+      "categories": [
+        "UI",
+        "Unit Frames",
+        "Quality of Life"
+      ]
+    },
+    {
+      "id": "tidyplates-wow335a",
+      "name": "Tidy Plates",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Name Plates",
+      "folder": "TidyPlates",
+      "source_subdir": "TidyPlates",
+      "description": "Nameplate framework and themes from the TrinityCore 3.3.5a bundle.",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/TidyPlates",
+      "categories": [
+        "Name Plates",
+        "Combat"
+      ]
+    },
+    {
+      "id": "xperl-wow335a",
+      "name": "X-Perl",
+      "author": "TrinityCore (wow_335a_addons)",
+      "category": "Unit Frames",
+      "folder": "XPerl",
+      "source_subdir": "XPerl",
+      "description": "X-Perl unit frames suite from the TrinityCore 3.3.5a bundle.",
+      "repo": "https://github.com/TrinityCore/wow_335a_addons.git",
+      "install": {
+        "type": "git",
+        "url": "https://github.com/TrinityCore/wow_335a_addons.git"
+      },
+      "github_release": {
+        "owner": "TrinityCore",
+        "repo": "wow_335a_addons",
+        "asset_pattern": "*.zip",
+        "enabled": false
+      },
+      "direct_zip": null,
+      "avatar_url": "https://github.com/TrinityCore.png?size=96",
+      "version": "master",
+      "page_url": "https://github.com/TrinityCore/wow_335a_addons/tree/master/XPerl",
+      "categories": [
+        "Unit Frames",
+        "Quality of Life"
       ]
     }
   ]
