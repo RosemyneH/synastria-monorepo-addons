@@ -1,6 +1,6 @@
 # Add-on index
 
-Machine-readable install sources: **[manifest/addons.json](manifest/addons.json)** (also baked into Attune Helper Companion). This table summarizes upstreams and notes.
+Machine-readable install sources: **[manifest/addons.json](manifest/addons.json)** (also baked into Attune Helper Companion). Each GitHub row is also linked as a **git submodule** under **[addons/upstream/](addons/upstream/README.md)** (`git clone --recurse-submodules`). This table summarizes upstreams and notes.
 
 | Add-on (short) | Upstream / note |
 |----------------|-----------------|

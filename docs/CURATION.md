@@ -1,42 +1,39 @@
 # Curation policy
 
-- **Upstream-first:** If a add-on has a public GitHub repository, the catalog points at that URL. Do not fork or mirror here unless intentional.
-- **ACP:** Only [ACP-Zero](https://github.com/DivideByZeroToDeleteWorld/ACP-Zero) is listed for the “Addon Control Panel” line.
-- **SynastriaQuestieHelper:** The catalog uses [Elmegaard/SynastriaQuestieHelper](https://github.com/Elmegaard/SynastriaQuestieHelper) as the install target; other forks may be noted in [ADDONS.md](../ADDONS.md).
-- **Felbite** is not a default source for bulk rows; the companion may support opt-in imports for maintenance only.
-- **Edits:** Change [manifest/addons.json](../manifest/addons.json) in this repo first, then rebuild the Attune Helper Companion so the baked catalog updates.
-- **Browsing `addons/` on GitHub:** Run `python scripts/generate_addons_index.py` so [addons/README.md](../addons/README.md) lists every row with links. Upstream add-ons are **not** duplicated as subfolders here (see below).
+- **Upstream-first:** Each public GitHub add-on has its own repository. The manifest lists the clone URL the **Attune Helper Companion** uses for installs.
+- **Meta-repo links:** The same URLs are registered as **git submodules** under [`addons/upstream/<id>/`](../addons/upstream/README.md) so this monorepo is multi-linked to every upstream (browse on GitHub or clone with `--recurse-submodules`).
+- **Vendored-only:** Add-ons without a suitable public repo (e.g. **RaajikWarpAlias**) stay as a normal folder under `addons/<FolderName>/`, not a submodule.
+- **ACP:** Only [ACP-Zero](https://github.com/DivideByZeroToDeleteWorld/ACP-Zero) for the “Addon Control Panel” line.
+- **SynastriaQuestieHelper:** [Elmegaard/SynastriaQuestieHelper](https://github.com/Elmegaard/SynastriaQuestieHelper) as the install target; other forks in [ADDONS.md](../ADDONS.md) if needed.
+- **Felbite** is not a default bulk source.
 
-## If you want every add-on as a real folder under `addons/`
+## After you change `manifest/addons.json`
 
-| Approach | What users see | Trade-off |
-|----------|----------------|-----------|
-| **Current (recommended)** | [addons/README.md](../addons/README.md) = generated table → links to each upstream GitHub repo; only true vendored trees (e.g. RaajikWarpAlias) are folders. | Small repo; companion clones each upstream URL from the manifest. |
-| **Git submodule per add-on** | One folder per add-on under `addons/`, each a submodule to upstream. | `git clone --depth 1` on the monorepo **does not** fetch submodule contents unless you add `--recurse-submodules` and change the installer — easy to ship empty folders by mistake. |
-| **Vendor / mirror copies** | Full file trees under `addons/`. | Huge repo; you must merge or re-sync from upstream manually. |
+1. Register new GitHub rows as submodules (idempotent):
 
-## Verify after editing the manifest
+   ```bash
+   python scripts/bootstrap_upstream_submodules.py
+   ```
 
-From a clone of [AttuneHelperCompanion](https://github.com/RosemyneH/AttuneHelperCompanion) with this repo beside it:
+2. Commit `.gitmodules`, submodule gitlinks, and the manifest.
+
+3. Validate the catalog from [AttuneHelperCompanion](https://github.com/RosemyneH/AttuneHelperCompanion):
+
+   ```bash
+   python scripts/generate_addon_catalog.py --check --input ../synastria-monorepo-addons/manifest/addons.json
+   ```
+
+## Clone this monorepo with all upstream checkouts
 
 ```bash
-python scripts/generate_addon_catalog.py --check --input ../synastria-monorepo-addons/manifest/addons.json
-cmake --build build
-ctest --test-dir build
+git clone --recurse-submodules https://github.com/RosemyneH/synastria-monorepo-addons.git
+# or, if already cloned:
+git submodule update --init --recursive
 ```
 
-## Regenerate manifest from companion (one-time seed)
+## Regenerate manifest from companion (bootstrap)
 
 ```bash
 python scripts/merge_manifest_from_companion.py
+python scripts/bootstrap_upstream_submodules.py
 ```
-
-(requires `../AttuneHelperCompanion/manifest/addons.json` — used when bootstrapping; day-to-day edits happen in this repo.)
-
-## Regenerate the add-ons index (under `addons/`)
-
-```bash
-python scripts/generate_addons_index.py
-```
-
-Commit `addons/README.md` together with `manifest/addons.json` when you change the catalog.

@@ -194,6 +194,7 @@ def main() -> int:
     OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     src = "companion" if _COMPANION_MANIFEST.is_file() else "hub"
     print(f"Wrote {len(addons)} addons to {OUT} (base={src})")
+    print("Next: python scripts/bootstrap_upstream_submodules.py", flush=True)
     return 0
 
 
