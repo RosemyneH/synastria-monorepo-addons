@@ -11,7 +11,7 @@ Machine-readable install sources: **[manifest/addons.json](manifest/addons.json)
 | SynastriaQuestieHelper | [Elmegaard/SynastriaQuestieHelper](https://github.com/Elmegaard/SynastriaQuestieHelper) (canonical row in catalog) |
 | AtlasLoot Mythic | [imevul/AtlasLoot_Mythic](https://github.com/imevul/AtlasLoot_Mythic) |
 | RaajikWarpAlias | **[Vendored](addons/RaajikWarpAlias/)** — copy from your local Interface folder into this repo; manifest uses `source_subdir` under this monorepo. |
-| SynScoots line | ScootsCraft, ScootsVendor, ScootsCombatAttuneWatch, ScootsStats, ScootsQuickAuction, ScootsSpeedrun, ArkInventory…, ScootsUITweaks, ScootsRares, ScootsWarpMap, ScootsConfirmationSkip, MehTrajectory — see manifest rows; skip entries with “deprecated” in name/description after review. |
+| SynScoots line | ScootsCraft, ScootsVendor, ScootsStats, ScootsQuickAuction, ScootsSpeedrun, ArkInventory…, ScootsUITweaks, ScootsRares, ScootsWarpMap, ScootsConfirmationSkip, MehTrajectory — see manifest rows; skip entries with “deprecated” in name/description after review. |
 | RosemyneH / Synastria | AttuneHelper (hosting repo), MapsterSynastriaHosting, OmniInv-Syn, qtRunner, qtRoll, AttuneProgress, TheJournal, qtUITweaks, ElvUI_Attune, cDF---Synastria, ResourceBankViewer, talented-synastria — listed in manifest. |
 | Lizard (Versicoloris) | LizardDMP, LizardKTS, LizardMMU, LizardSTB, LizardTMO, LizardWWG — see manifest. |
 

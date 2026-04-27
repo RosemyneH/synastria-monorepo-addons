@@ -52,9 +52,6 @@
 [submodule "addons/questie-335"]
 	path = addons/questie-335
 	url = https://github.com/Netrinil/Questie-335.git
-[submodule "addons/scoots-combat-attune-watch"]
-	path = addons/scoots-combat-attune-watch
-	url = https://github.com/SynScoots/ScootsCombatAttuneWatch.git
 [submodule "addons/scoots-confirmation-skip"]
 	path = addons/scoots-confirmation-skip
 	url = https://github.com/SynScoots/ScootsConfirmationSkip.git

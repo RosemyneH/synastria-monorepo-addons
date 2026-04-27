@@ -439,32 +439,6 @@
       "version": "v1.0.0"
     },
     {
-      "id": "scoots-combat-attune-watch",
-      "name": "Scoots' Combat Attune Watch",
-      "author": "Scoots",
-      "category": "Attunement",
-      "folder": "ScootsCombatAttuneWatch",
-      "description": "Tracks attunement progress in combat.",
-      "repo": "https://github.com/SynScoots/ScootsCombatAttuneWatch.git",
-      "install": {
-        "type": "git",
-        "url": "https://github.com/SynScoots/ScootsCombatAttuneWatch.git"
-      },
-      "github_release": {
-        "owner": "SynScoots",
-        "repo": "ScootsCombatAttuneWatch",
-        "asset_pattern": "*.zip",
-        "enabled": false
-      },
-      "direct_zip": null,
-      "avatar_url": "https://github.com/SynScoots.png?size=96",
-      "version": "commit-bf51245",
-      "categories": [
-        "Attunement",
-        "Quality of Life"
-      ]
-    },
-    {
       "id": "scoots-confirmation-skip",
       "name": "Scoots' Confirmation Skip",
       "author": "Scoots",
